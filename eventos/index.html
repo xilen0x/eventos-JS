@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Javascript</title>
+    <link rel="stylesheet" a href="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+          <h2>Eventos de ratón en Javascript</h2>
+        </div>
+        <div class="container col-md-10 offset-md-1">
+            <table>
+                <tr id="encabezado">
+                  <th>Nombre Evento</th>
+                  <th>Botón</th>
+                  <th>Resultado</th>
+                </tr>
+                <tr>
+                  <td>Evento click</td>
+                  <td><button type="button" class="btn btn-primary btn-block" id="boton1">Haz un Click!</button></td>
+                  <td id="ej1"></td>
+                </tr>
+                <tr>
+                  <td>Evento mouseover</td>
+                  <td><button type="button" class="btn btn-primary btn-block" id="boton2">Posiciónate aquí!</button></td>
+                  <td id="ej2"></td>
+                </tr>
+                <tr>
+                  <td>Evento mouseout</td>
+                  <td><button type="button" class="btn btn-primary btn-block" id="boton3">Posiciónate aquí y luego sal!</button></td>
+                  <td id="ej3"></td>
+                </tr>
+              </table>
+        </div>
+        <div>
+          <h2>Eventos de teclado en Javascript</h2>
+        </div>
+        <div class="container col-md-10 offset-md-1">
+            <table>
+                <tr id="encabezado">
+                  <th>Nombre Evento</th>
+                  <th>Evento</th>
+                  <th>Resultado</th>
+                </tr>
+                <tr>
+                  <td>Evento keydown</td>
+                  <td><input id="input1" type="text" placeholder="Presiona una tecla" value="" maxlength="3"></td>
+                  <td id="ej4"></td>
+                </tr>
+                <tr>
+                  <td>Evento keypress</td>
+                  <td><input id="input2" type="text" placeholder="Presiona una tecla" value=""></td>
+                  <td id="ej5"></td>
+                </tr>
+                <tr>
+                  <td>Evento keyup</td>
+                  <td><input id="input3" type="text" placeholder="Presiona una tecla" value=""></td>
+                  <td id="ej6"></td>
+                </tr>
+              </table>
+        </div>
+    <script src="app.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"/>
+</body>
+</html>
